@@ -1,0 +1,24 @@
+{
+    "name": "lib/autoload",
+    "description": "autoload routes, namespaces, index",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "": "src/",
+            "App\\": "src/",
+            "App\\Classes\\": "src/classes/",
+            "App\\Controllers\\": "src/controllers/",
+            "App\\Models\\": "src/models/",
+            "App\\Views\\": "src/view",
+            "Vendor\\": "vendor/"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "ChamadKhadaev",
+            "email": "chamad.khadaev@epitech.eu"
+        }
+    ],
+    "require": {}
+}
